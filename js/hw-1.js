@@ -20,5 +20,6 @@ console.log(myNull)
 const wathName = prompt("Wath are you name")
 alert(`Дякую ${wathName} що ввели своє імя!`)
 
-// const wathDo = confirm("Ви справді хочете зайти сюди");
-// console.log(wathDo)
+const wathDo = confirm("Ви справді хочете зайти сюди");
+console.log(wathDo)
+alert("Дякію що підтвердили")
