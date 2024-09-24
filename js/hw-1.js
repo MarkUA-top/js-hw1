@@ -22,4 +22,19 @@
 
 // const wathDo = confirm("Ви справді хочете зайти сюди");
 // console.log(wathDo)
-// alert("Дякію що підтвердили")
+
+// if (wathDo){
+//     alert("Дякую за підтвердження!")
+// } else {
+//     alert("Дію відмінено!")
+// }
+
+const warning = alert("дія небезпечна");
+const accept = confirm("Підтвердіть те що ви хочете зайти на цей сайт")
+console.log(accept)
+
+if (accept){
+    alert("Дякую за підтвердження!")
+} else {
+    alert("Дію відмінено!")
+}
